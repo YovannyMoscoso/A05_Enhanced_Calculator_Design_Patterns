@@ -23,6 +23,7 @@ class Calculation:
 
         if self.timestamp is None:
             self.timestamp = datetime.now().isoformat(timespec="seconds")
+            
 
     def to_dict(self) -> dict:
         """Serialize calculation to a dictionary."""
