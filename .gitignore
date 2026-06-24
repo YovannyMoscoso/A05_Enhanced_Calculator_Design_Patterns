@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+history.csv
+.env
+venv/
+.pytest_cache/
